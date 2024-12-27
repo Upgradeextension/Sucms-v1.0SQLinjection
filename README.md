@@ -6,6 +6,7 @@ In /admin/admin_members.php, multiple query statements are not filtered for SQL 
 ![image](https://github.com/user-attachments/assets/8380a9b7-7271-40a7-b533-9e345ccc4919)
 ## Affected versions: Sucms v1.0 web application is affected by this vulnerability.
 ## Vulnerability Verification Process
+```
 POST /admin/admin_members.php?ac=search HTTP/1.1
 Host: 127.0.0.1
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:70.0) Gecko/20100101 Firefox/70.0
@@ -21,6 +22,7 @@ Cookie: PHPSESSID=8k8r2hfra80o3opt0beua9mga5; zh_choose=n; _currentWebUrl_=%2Fin
 Upgrade-Insecure-Requests: 1
 
 uname=1&uid=1&Submit=%E6%90%9C%E7%B4%A2
+```
 ![image](https://github.com/user-attachments/assets/07b5d7fc-0744-4b5d-b35a-e859a6838b84)
 
 ## Solutions
