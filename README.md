@@ -1,4 +1,5 @@
 # Sucms-v1.0SQLinjection
+## Download link: https://down.chinaz.com/api/index/download?id=37818&type=code.
 ## Vulnerability description
 Sucheng Film and Television Management System (sucms). There is a SQL injection vulnerability in the background management of Sucheng Film and Television Management System. Vulnerability URL: http://127.0.0.1/admin/admin_members.php?ac=search, which can cause SQL injection vulnerability and can be temporarily solved by filtering parameters.
 ## Vulnerability analysis
